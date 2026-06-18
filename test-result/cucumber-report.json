@@ -1,0 +1,238 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "api-testing;perform-delete-operation",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Perform Delete Operation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a delete request",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323879299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The response status code of delete should be 204",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8995499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;perform-get-operation",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Perform Get Operation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I send a get request",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172204400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The response status code of get should be 200",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14015199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;perform-post-operation",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Perform Post Operation",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "content": "{\n\"name\" : \"Ashok\",\n\"job\": \"Senior Test Engineer\"\n}\n",
+                "line": 16
+              }
+            ],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I send a post request with body",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323522600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "The response status code of post should be 201",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4360900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;perform-put-operation",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Perform Put Operation",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "content": "{\n\"name\" : \"Ashok\",\n\"job\": \"Technical Engineer\"\n}\n",
+                "line": 28
+              }
+            ],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I send a put request with body",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187333399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "The response status code of put should be 200",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12072400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;perform-patch-operation",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Perform Patch Operation",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "content": "{\n\"name\" : \"Jaspreet\",\n\"job\": \"Technical Manager\"\n}\n",
+                "line": 40
+              }
+            ],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I send a patch request with body",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171412999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "The response status code of patch should be 200",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APITesting.ts:171"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7572699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "api-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "API Testing",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\APITest.feature"
+  }
+]

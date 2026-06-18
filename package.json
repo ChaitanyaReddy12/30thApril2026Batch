@@ -1,0 +1,31 @@
+{
+  "name": "30thapril2025batch_playwrightautomation",
+  "version": "1.0.0",
+  "description": "this is a playwright automation project",
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "Quality Thought",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3",
+    "cucumber-html-reporter": "^5.0.2",
+    "dotenv": "^17.4.2",
+    "jest-image-snapshot": "^6.5.2",
+    "playwright": "^1.60.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

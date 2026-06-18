@@ -1,0 +1,28 @@
+{
+    "TestData1": {
+        "Name": "Karthik",
+        "Email": "karthik@gmail.com",
+        "Phone": "9090909090",
+        "Address": "Hyderabad",
+        "wikipedia": "playwright"
+    },
+    "TestData2": {
+        "Name": "Deepthi",
+        "Email": "deepthi@yahoo.com",
+        "Phone": "7890789090",
+        "Address": "Bangalore",
+        "wikipedia": "typescript"
+    },
+    "TestData3": {
+        "Name": "Lakshmi",
+        "Email": "lakshmi@outlook.com",
+        "Phone": "5678907890",
+        "Address": "Chennai",
+        "wikipedia": "Selenium"
+    },
+    "OrangeHRMUserCredentials":{
+        "username":"Admin",
+        "password":"admin123",
+        "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    }
+}
